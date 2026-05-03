@@ -238,24 +238,41 @@
         @media (max-width: 768px) {
             .navbar-toggler-custom { display: flex; }
             .nav-collapse {
-                position: fixed;
-                top: var(--navbar-h);
+                position: absolute;
+                /* top: var(--navbar-h); */
+                top: 100%;
                 left: 0; right: 0;
                 background: rgba(255,255,255,.98);
                 border-bottom: 1px solid var(--border);
-                padding: 16px 20px 24px;
+                /* padding: 16px 20px 24px; */
+                padding: 20px 20px 30px;
                 flex-direction: column;
                 gap: 4px;
                 box-shadow: var(--shadow-md);
-                transform: translateY(-110%);
-                transition: transform .3s ease;
-                z-index: 1070;
+                transform: translateY(-10%);
+                opacity: 0;
+                pointer-events: none;
+                transition: all .3s ease;
+                /* z-index: 1070; */
+                z-index: 2000;
             }
-            .nav-collapse.open { transform: translateY(0); }
+            .nav-collapse.open { transform: translateY(0); opacity: 1; pointer-events: auto;}
             .nav-links { flex-direction: column; width: 100%; }
             .nav-links a { width: 100%; }
             .nav-right { flex-direction: column; width: 100%; gap: 8px; }
             .btn-nav-login, .btn-nav-logout, .btn-nav-admin { justify-content: center; width: 100%; }
+            .site-navbar {
+                height: auto !important;
+                padding: 10px 0;
+            }
+            .site-navbar .container-fluid {
+                flex-wrap: wrap;
+                height: auto;
+            }
+            .btn-nav-login {
+            width: 100%;
+            justify-content: center;
+            }
         }
     </style>
 </head>

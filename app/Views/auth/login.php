@@ -1,22 +1,7 @@
 <?= $this->extend('layout_clear') ?>
 <?= $this->section('content') ?>
 
-<!-- <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Login Admin MagangHub">
     <title><?= esc($title ?? 'Login Admin - MagangHub') ?></title>
-
-    Google Fonts 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-     Bootstrap Icons
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head> --> 
 
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -25,7 +10,6 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
             min-height: 100vh;
             display: flex;
-            overflow: hidden;
         }
 
         /* ── LEFT PANEL ── */
@@ -279,13 +263,33 @@
         .back-link:hover { color: #5B3CF4; }
 
         /* Responsive */
-        @media (max-width: 900px) {
+        /* @media (max-width: 900px) {
             .login-left { display: none; }
             .login-right { width: 100%; padding: 48px 32px; }
+        } */
+         @media (max-width: 900px) {
+        body {
+            flex-direction: column;
+            overflow: auto;
         }
-    </style>
 
-<!-- <body> -->
+        .login-left {display: none;}
+
+        .login-right {
+            width: 100%;
+            padding: 32px 20px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .login-header h2 {font-size: 1.4rem;}
+
+        .btn-login {
+            font-size: 0.85rem;
+            padding: 12px;
+        }
+    }
+    </style>
 
     <!-- LEFT PANEL -->
     <div class="login-left">
@@ -412,7 +416,5 @@
         }
     }
     </script>
-<!-- </body> -->
-<!-- </html> -->
 
 <?= $this->endSection() ?>

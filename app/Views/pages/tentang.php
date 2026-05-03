@@ -310,24 +310,24 @@
             <div class="col-6 col-md-3">
                 <div class="team-card">
                     <div class="team-card-top" style="background:linear-gradient(135deg,#5B3CF4,#8B5CF6);"></div>
-                    <div class="team-avatar">R</div>
-                    <h5>Rizky Pratama</h5>
+                    <div class="team-avatar">S</div>
+                    <h5>Sabrina Angel</h5>
                     <div class="role">CEO & Co-Founder</div>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="team-card">
                     <div class="team-card-top" style="background:linear-gradient(135deg,#F97316,#FBBF24);"></div>
-                    <div class="team-avatar" style="background:linear-gradient(135deg,#F97316,#FBBF24);">S</div>
-                    <h5>Sari Dewi</h5>
+                    <div class="team-avatar" style="background:linear-gradient(135deg,#F97316,#FBBF24);">E</div>
+                    <h5>Elvano Arsenio</h5>
                     <div class="role">Head of Partnerships</div>
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="team-card">
                     <div class="team-card-top" style="background:linear-gradient(135deg,#14B8A6,#10B981);"></div>
-                    <div class="team-avatar" style="background:linear-gradient(135deg,#14B8A6,#10B981);">D</div>
-                    <h5>Dimas Arya</h5>
+                    <div class="team-avatar" style="background:linear-gradient(135deg,#14B8A6,#10B981);">C</div>
+                    <h5>Calvin Miles</h5>
                     <div class="role">Lead Developer</div>
                 </div>
             </div>
@@ -335,7 +335,7 @@
                 <div class="team-card">
                     <div class="team-card-top" style="background:linear-gradient(135deg,#EC4899,#F43F5E);"></div>
                     <div class="team-avatar" style="background:linear-gradient(135deg,#EC4899,#F43F5E);">N</div>
-                    <h5>Nadia Putri</h5>
+                    <h5>Natania Elora</h5>
                     <div class="role">Community Manager</div>
                 </div>
             </div>

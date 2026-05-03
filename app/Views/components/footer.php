@@ -37,7 +37,7 @@
                 <div class="col-6 col-lg-2">
                     <h6 class="footer-heading">Kategori</h6>
                     <ul class="footer-links">
-                        <li><a href="#">Teknologi</a></li>
+                        <li><a href="a">Teknologi</a></li>
                         <li><a href="#">Desain</a></li>
                         <li><a href="#">Bisnis</a></li>
                         <li><a href="#">Pemasaran</a></li>
@@ -47,7 +47,7 @@
                 <div class="col-lg-4">
                     <h6 class="footer-heading">Kontak</h6>
                     <ul class="footer-contact">
-                        <li><i class="bi bi-geo-alt-fill"></i> Jl. Pendidikan No. 123, Jakarta Selatan</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Jl. Nakula No. 123, Semarang Tengah</li>
                         <li><i class="bi bi-envelope-fill"></i> info@maganghub.id</li>
                         <li><i class="bi bi-telephone-fill"></i> (021) 1234-5678</li>
                         <li><i class="bi bi-clock-fill"></i> Senin – Jumat, 08.00 – 17.00 WIB</li>
@@ -70,7 +70,11 @@
 .site-footer { background: #1A1235; position: relative; overflow: hidden; }
 
 .footer-wave { line-height: 0; margin-bottom: -2px; background: var(--surface, #F8F7FF); }
-.footer-wave svg { display: block; height: 55px; }
+.footer-wave svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+    }
 
 .footer-body { padding: 56px 0 40px; }
 
